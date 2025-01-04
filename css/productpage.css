@@ -1,0 +1,120 @@
+/* PP-css */
+
+* {
+    font-family: "Inclusive Sans", sans-serif;
+}
+
+#pp-content-wrapper {
+      margin: 0 auto;
+      max-width: 700px;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+}
+
+#pp-return-button {
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    box-shadow: 2px 2px 4px rgba(152, 152, 152, 0.4);
+    font-size: 20px;
+}
+
+#pp-loading-msg {
+    font-size: 25px;
+}
+
+#pp-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#pp-img {
+    height: auto;
+    margin: 0px auto;
+}
+
+#pp-book-img {
+    box-shadow: 10px 8px 6px rgba(152, 152, 152, 0.4);
+    flex: 1 1 260px;
+    height: 350px;
+    width: auto;
+    margin: 20px;
+}
+
+#pp-book-info {
+    height: auto;
+    flex: 2 1 300px;
+    margin: 5px 20px;
+    text-align: center;
+}
+
+#pp-summary {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+
+#pp-purchase {
+    height: auto;
+    flex: 2 1 250px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+#pp-in-stock {
+    width: 140px;
+    height: auto;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 4px rgba(152, 152, 152, 0.4);
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 11px;
+    text-align: center;
+    background-color: white;
+}
+
+#pp-input-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#pp-amount {
+    width: 40px;
+    height: 40px;
+    box-shadow: 2px 2px 4px rgba(152, 152, 152, 0.4);
+    margin: 5px 0px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+#pp-add-button {
+    min-width: 210px;
+    height: 40px;
+    font-size: 20px;
+    box-shadow: 2px 2px 4px rgba(152, 152, 152, 0.4);
+}
+
+#added-message {
+    margin-left: 15px;
+}
+
+
+/* Media Queries */
+@media only screen and (min-width: 992px) {
+    #pp-content-wrapper {
+      max-width: 1400px;
+    }
+
+    #pp-book-info {
+        text-align: left;
+    }
+  }

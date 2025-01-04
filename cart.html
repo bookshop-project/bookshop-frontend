@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boklusen - varukorg</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+    </style>
+</head>
+
+<body class="cart-page">
+    <!--To get header from header.js, has to load before header-->
+    <script src="scripts/header.js"></script>
+    <div class="content-wrapper">
+        <main id="main-content-holder" class="main-content-holder cart">
+            <h2 class="cart-title">Min varukorg</h2>
+            <section id="cart-items" class="cart-items-holder"></section>
+            <h2 id="cart-total" class="cart-total"></h2>
+        </main>
+    </div>
+    <script src="scripts/footer.js"></script>
+    <script src="scripts/cart.js"></script>
+</body>
+
+</html>
