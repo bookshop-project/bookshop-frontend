@@ -67,7 +67,7 @@ body {
 /* Breadcrumb */
 .breadcrumb {
     text-transform: uppercase;
-    color: #d84333;
+    color: var(--orange);
     font-size: 0.9em;
     margin: 20px 0;
     text-align: left;
