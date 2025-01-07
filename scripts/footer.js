@@ -15,7 +15,7 @@ footerTemplate.innerHTML=`
             <div id="om-oss">
                 <h3><a href="">Om Boklusen</a></h3>
                 <ul>
-                    <li><a href="">Vår historia</a></li>
+                    <li><a href="our-history.html">Vår historia</a></li>
                     <li><a href="">Jobba med oss</a></li>
                 </ul>
             </div>
